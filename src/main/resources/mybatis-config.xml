@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+<properties resource="appliation.properties" />
+ <!-- <typeAliases>
+   <typeAlias alias="WorkTrip" type="com.example.moffice.WorkTrip.Vo.WorkTrip"/>
+  </typeAliases> -->
+  
+   <environments default="development">
+         <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driverClassName" value="org.postgresql.Driver"/>
+			    <property name="url" value="jdbc:postgresql://192.168.0.21:45432/jovt_pine"/>
+			    <property name="username" value="webcommon"/>
+			    <property name="password" value="Wpdlsltm0#1$pg"/>
+            </dataSource>
+        </environment>
+    </environments>
+ 
+    <mappers>
+        <mapper resource="mapper/WorkTripDao.xml"/>
+    </mappers>
+
+</configuration>

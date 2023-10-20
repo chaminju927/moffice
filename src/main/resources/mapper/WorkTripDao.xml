@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.WorkTrip.Dao.WorkTripDao">
+
+  <resultMap type="com.example.moffice.WorkTrip.Vo.WorkTrip" id="workTripMap">
+    <id column="no" property="no"/>
+    <result column="worktype" property="worktype"/>
+    <result column="startdate" property="startdate"/>
+    <result column="enddate" property="enddate"/>
+    <result column="reason" property="reason"/>
+    <result column="confirm" property="confirm"/>
+    <result column="workerNo" property="workerNo"/>
+    <result column="part" property="part"/>
+    <result column="name" property="name"/>
+    <result column="position" property="position"/>
+  </resultMap>
+  
+   <insert id="insert" parameterType="com.example.moffice.WorkTrip.Vo.WorkTrip">
+    insert into test_schema.worktrip
+	(worktype, startdate, enddate, reason, confirm, workerNo, part, name, position, enrolldate)
+    values(#{workType}, #{startdate}, #{enddate}, #{reason}, #{confirm}, #{workerNo}, #{part}, #{name}, #{position}, now()::date); 
+  </insert>
+  
+ <select id="getList" parameterType="String" resultType="com.example.moffice.WorkTrip.Vo.WorkTrip">
+    select *
+    from test_schema.worktrip
+    where startdate=#{startDate};
+  </select>
+  
+   <!--
+ <select id="getAllWorkTrip"  resultType="com.example.WorkTrip.Vo.WorkTrip">
+    select 
+    no, name, email, phone
+    from WorkTrip;
+  </select>
+  
+  <delete id="delete" parameterType="int">
+	  delete
+	  from WorkTrip
+	  where no = #{no};
+  </delete>
+  
+  <update id="update" parameterType="com.example.WorkTrip.Vo.WorkTrip">
+	  update WorkTrip set
+	  name = #{name}, phone = #{phone}, email = #{email}
+	  where no = #{no};
+  </update> -->
+</mapper>
+
+
