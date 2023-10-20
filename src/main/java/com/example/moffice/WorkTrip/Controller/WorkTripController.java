@@ -1,5 +1,9 @@
 package com.example.moffice.WorkTrip.Controller;
 
+import java.sql.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,9 +38,19 @@ public class WorkTripController {
 //	
 	@GetMapping("/list")
 	public Object list(@RequestParam("startDate")String startDate, @RequestParam("endDate")String endDate) {
-		System.out.printf("startDate:", startDate);
-		System.out.printf("endDate:", endDate);
-		return workTripService.getAll(startDate, endDate);
+		System.out.println(startDate);
+		System.out.println(endDate);
+		
+//		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+//		LocalDate sqlStartDate = LocalDate.parse(startDate, formatter);
+//		LocalDate sqlEndDate = LocalDate.parse(endDate, formatter);
+		//Date convertedDate = new Date(date);
+//		System.out.println(sqlStartDate);
+//		System.out.println(sqlEndDate);
+//		
+		//System.out.println(newStartDate);
+		//return workTripService.getAllWorkTrip(startDate, endDate);
+		return null;
 		
 	}
 
