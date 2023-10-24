@@ -1,6 +1,7 @@
 package com.example.moffice.WorkTrip.Service.ServiceImpl;
 
 
+import java.sql.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,17 +28,15 @@ public class DefaultWorkTripService implements WorkTripService {
 	  }
 
 	@Override
-	public Object getAllWorkTrip(String startDate, String endDate) {
+	public void delete(int no) {
+		workTripDao.delete(no);
+	}
+
+	@Override
+	public List<WorkTrip> getAllWorkTrip(Date startDate, Date endDate) {
 		return workTripDao.getList(startDate, endDate);
 	}
 
-	
-
-//	@Override
-//	public void delete(int no) {
-//		WorkerTripDao.delete(no);
-//	}
-//
 //	@Override
 //	public void update(WorkerTrip workerTrip) {
 //		WorkerTripDao.update(WorkerTrip);
