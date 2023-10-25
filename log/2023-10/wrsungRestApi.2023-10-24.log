@@ -1,0 +1,992 @@
+2023-10-24 09:36:28.110 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 09:36:28.115 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 09:36:28.175 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 09:36:28.176 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 09:36:29.717 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 09:36:29.727 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:36:29.729 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 09:36:29.729 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 09:36:29.803 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 09:36:29.803 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1627 ms
+2023-10-24 09:36:30.561 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 09:36:30.577 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:36:30.603 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 09:36:30.618 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 2.953 seconds (JVM running for 3.773)
+2023-10-24 09:38:10.549 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 09:38:10.550 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 09:38:10.551 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 09:38:10.616 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-24 09:38:10.909 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-10-24 09:57:55.817 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 09:57:55.906 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:57:55.907 INFO  [Thread-6] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 09:57:55.908 INFO  [Thread-6] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 09:57:55.928 WARN  [Thread-6] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 09:57:55.929 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:57:55.949 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:57:55.969 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-10-24 09:57:55.981 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-10-24 09:57:56.383 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 09:57:56.383 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 09:57:56.871 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 09:57:56.872 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:57:56.872 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 09:57:56.873 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 09:57:56.888 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 09:57:56.889 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 499 ms
+2023-10-24 09:57:57.174 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 09:57:57.184 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 09:57:57.192 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 09:57:57.197 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.886 seconds (JVM running for 1290.352)
+2023-10-24 09:57:57.205 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 10:10:33.836 INFO  [http-nio-8080-exec-3] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 10:10:33.837 INFO  [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 10:10:33.838 INFO  [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 10:10:33.842 INFO  [http-nio-8080-exec-3] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Starting...
+2023-10-24 10:10:33.967 INFO  [http-nio-8080-exec-3] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Start completed.
+2023-10-24 11:05:27.624 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:05:27.946 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:27.946 INFO  [Thread-8] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:05:27.953 INFO  [Thread-8] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 11:05:27.964 WARN  [Thread-8] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 11:05:27.971 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:27.977 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:27.981 INFO  [Thread-8] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown initiated...
+2023-10-24 11:05:27.989 INFO  [Thread-8] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown completed.
+2023-10-24 11:05:28.203 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:05:28.204 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:05:28.607 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:05:28.607 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:28.608 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:05:28.608 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:05:28.649 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:05:28.649 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 442 ms
+2023-10-24 11:05:29.051 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:05:29.056 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:29.063 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:05:29.075 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.916 seconds (JVM running for 5342.23)
+2023-10-24 11:05:29.089 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:05:40.444 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 11:05:40.444 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 11:05:40.445 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 11:05:40.449 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Starting...
+2023-10-24 11:05:40.563 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Start completed.
+2023-10-24 11:05:56.192 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:05:56.244 INFO  [Thread-12] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:56.245 INFO  [Thread-12] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:05:56.246 INFO  [Thread-12] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 11:05:56.248 WARN  [Thread-12] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 11:05:56.249 INFO  [Thread-12] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:56.266 INFO  [Thread-12] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:56.268 INFO  [Thread-12] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Shutdown initiated...
+2023-10-24 11:05:56.273 INFO  [Thread-12] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Shutdown completed.
+2023-10-24 11:05:56.463 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:05:56.463 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:05:56.729 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:05:56.730 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:56.730 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:05:56.730 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:05:56.744 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:05:56.744 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 275 ms
+2023-10-24 11:05:56.861 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:05:56.866 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:05:56.869 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:05:56.873 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.449 seconds (JVM running for 5370.027)
+2023-10-24 11:05:56.875 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:05:59.054 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 11:05:59.054 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 11:05:59.055 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 11:05:59.061 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Starting...
+2023-10-24 11:05:59.184 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Start completed.
+2023-10-24 11:05:59.279 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 오류: "worktrip" 이름의 릴레이션(relation)이 없습니다
+  Position: 16
+### The error may exist in class path resource [mapper/WorkTripDao.xml]
+### The error may involve com.example.moffice.WorkTrip.Dao.WorkTripDao.delete-Inline
+### The error occurred while setting parameters
+### SQL: delete    from WorkTrip    where no = ?;
+### Cause: org.postgresql.util.PSQLException: 오류: "worktrip" 이름의 릴레이션(relation)이 없습니다
+  Position: 16
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 오류: "worktrip" 이름의 릴레이션(relation)이 없습니다
+  Position: 16] with root cause
+org.postgresql.util.PSQLException: 오류: "worktrip" 이름의 릴레이션(relation)이 없습니다
+  Position: 16
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at com.sun.proxy.$Proxy64.delete(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:304)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:72)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy80.delete(Unknown Source)
+	at com.example.moffice.WorkTrip.Service.ServiceImpl.DefaultWorkTripService.delete(DefaultWorkTripService.java:32)
+	at com.example.moffice.WorkTrip.Controller.WorkTripController.delete(WorkTripController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2023-10-24 11:06:51.010 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-24 11:06:51.051 INFO  [Thread-16] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:51.051 INFO  [Thread-16] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:06:51.052 INFO  [Thread-16] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 11:06:51.055 WARN  [Thread-16] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 11:06:51.056 INFO  [Thread-16] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:51.059 INFO  [Thread-16] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:51.061 INFO  [Thread-16] [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Shutdown initiated...
+2023-10-24 11:06:51.066 INFO  [Thread-16] [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Shutdown completed.
+2023-10-24 11:06:51.221 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:06:51.222 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:06:51.541 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:06:51.541 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:51.541 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:06:51.542 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:06:51.555 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:06:51.555 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 330 ms
+2023-10-24 11:06:51.682 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:06:51.686 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:51.689 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:06:51.694 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.504 seconds (JVM running for 5424.848)
+2023-10-24 11:06:51.695 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:06:56.200 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:06:56.244 INFO  [Thread-20] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:56.244 INFO  [Thread-20] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:06:56.246 INFO  [Thread-20] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:56.248 INFO  [Thread-20] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:56.393 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:06:56.393 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:06:56.679 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:06:56.679 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:56.680 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:06:56.680 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:06:56.691 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:06:56.691 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 294 ms
+2023-10-24 11:06:56.797 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:06:56.800 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:06:56.802 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:06:56.807 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.457 seconds (JVM running for 5429.962)
+2023-10-24 11:06:56.808 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:07:18.731 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-24 11:07:18.772 INFO  [Thread-24] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:18.772 INFO  [Thread-24] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:07:18.776 INFO  [Thread-24] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:18.778 INFO  [Thread-24] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:18.911 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:07:18.911 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:19.124 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:07:19.125 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:19.127 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:07:19.127 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:07:19.145 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:19.148 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 233 ms
+2023-10-24 11:07:19.534 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:07:19.539 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:19.541 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:07:19.545 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.663 seconds (JVM running for 5452.699)
+2023-10-24 11:07:19.547 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:07:24.114 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:07:24.245 INFO  [Thread-28] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:24.245 INFO  [Thread-28] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:07:24.250 INFO  [Thread-28] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:24.253 INFO  [Thread-28] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:24.594 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8332 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:07:24.595 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:24.958 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:07:24.958 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:24.958 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:07:24.959 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:07:24.969 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:24.969 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 371 ms
+2023-10-24 11:07:25.123 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:07:25.127 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:07:25.129 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:07:25.133 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.627 seconds (JVM running for 5458.287)
+2023-10-24 11:07:25.135 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:08:42.746 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 10740 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:08:42.749 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:08:42.812 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 11:08:42.812 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 11:08:44.679 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:08:44.686 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:08:44.688 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:08:44.688 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:08:44.751 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:08:44.751 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1938 ms
+2023-10-24 11:08:45.371 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:08:45.388 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:08:45.413 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:08:45.426 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 3.423 seconds (JVM running for 4.127)
+2023-10-24 11:08:52.380 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 11:08:52.380 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 11:08:52.381 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 11:08:52.448 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-24 11:08:52.735 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-10-24 11:10:04.941 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:10:05.118 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:05.118 INFO  [Thread-6] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:10:05.120 INFO  [Thread-6] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 11:10:05.124 WARN  [Thread-6] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 11:10:05.125 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:05.127 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:05.130 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-10-24 11:10:05.140 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-10-24 11:10:05.674 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 10740 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:10:05.675 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:10:06.187 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:10:06.188 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:06.188 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:10:06.188 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:10:06.211 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:10:06.212 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 532 ms
+2023-10-24 11:10:06.411 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:10:06.416 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:06.418 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:10:06.425 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.909 seconds (JVM running for 85.126)
+2023-10-24 11:10:06.428 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:10:07.897 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:10:07.942 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:07.942 INFO  [Thread-8] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 11:10:07.946 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:07.949 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:08.110 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 10740 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 11:10:08.111 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:10:08.455 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 11:10:08.455 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:08.456 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 11:10:08.456 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 11:10:08.468 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 11:10:08.468 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 353 ms
+2023-10-24 11:10:08.610 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 11:10:08.615 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 11:10:08.617 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 11:10:08.620 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.545 seconds (JVM running for 87.321)
+2023-10-24 11:10:08.621 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 11:28:27.910 INFO  [http-nio-8080-exec-3] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 11:28:27.910 INFO  [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 11:28:27.912 INFO  [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 11:28:27.919 INFO  [http-nio-8080-exec-3] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Starting...
+2023-10-24 11:28:28.047 INFO  [http-nio-8080-exec-3] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Start completed.
+2023-10-24 13:00:00.723 WARN  [HikariPool-2 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=39m1s834ms868µs700ns).
+2023-10-24 13:35:50.206 ERROR [http-nio-8080-exec-9] [o.a.c.c.C.[.[.[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+### The error may exist in class path resource [mapper/WorkTripDao.xml]
+### The error may involve com.example.moffice.WorkTrip.Dao.WorkTripDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_schema.workTrip  (worktype, startdate, enddate, reason, confirm, workerNo, part, name, position, enrolldate, confirm)     values(?, ?, ?, ?, ?, ?, ?, ?, ?, now()::date, false);
+### Cause: org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127] with root cause
+org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at com.sun.proxy.$Proxy64.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy79.insert(Unknown Source)
+	at com.example.moffice.WorkTrip.Service.ServiceImpl.DefaultWorkTripService.add(DefaultWorkTripService.java:27)
+	at com.example.moffice.WorkTrip.Controller.WorkTripController.insert(WorkTripController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2023-10-24 13:35:50.232 ERROR [http-nio-8080-exec-9] [o.a.c.c.C.[Tomcat].[localhost]] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:271)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:120)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1187)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1009)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1431)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:739)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:723)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:566)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1246)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:207)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 53 common frames omitted
+2023-10-24 13:36:13.691 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 9932 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:36:13.694 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:36:13.780 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 13:36:13.780 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 13:36:15.642 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:36:15.650 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:36:15.651 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:36:15.651 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:36:15.712 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:36:15.713 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1932 ms
+2023-10-24 13:36:16.322 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 13:36:16.335 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:36:16.355 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 13:36:16.366 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 3.538 seconds (JVM running for 4.088)
+2023-10-24 13:36:40.220 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 13:36:40.220 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 13:36:40.221 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 13:36:40.352 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-24 13:36:40.675 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-10-24 13:36:40.817 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+### The error may exist in class path resource [mapper/WorkTripDao.xml]
+### The error may involve com.example.moffice.WorkTrip.Dao.WorkTripDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_schema.workTrip  (worktype, startdate, enddate, reason, confirm, workerNo, part, name, position, enrolldate, confirm)     values(?, ?, ?, ?, ?, ?, ?, ?, ?, now()::date, false);
+### Cause: org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127] with root cause
+org.postgresql.util.PSQLException: 오류: "confirm" 칼럼을 하나 이상 지정했음
+  Position: 127
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at com.sun.proxy.$Proxy64.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at com.example.moffice.WorkTrip.Service.ServiceImpl.DefaultWorkTripService.add(DefaultWorkTripService.java:27)
+	at com.example.moffice.WorkTrip.Controller.WorkTripController.insert(WorkTripController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2023-10-24 13:36:40.847 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost]] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:271)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:120)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1187)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1009)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:661)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1431)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:739)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:723)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:566)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1246)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:207)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	... 53 common frames omitted
+2023-10-24 13:37:22.191 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 13:37:22.235 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:37:22.235 INFO  [Thread-6] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 13:37:22.237 INFO  [Thread-6] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 13:37:22.240 WARN  [Thread-6] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 13:37:22.240 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:37:22.242 INFO  [Thread-6] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:37:22.246 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-10-24 13:37:22.255 INFO  [Thread-6] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-10-24 13:37:22.397 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 9932 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:37:22.397 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:37:22.664 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:37:22.665 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:37:22.665 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:37:22.665 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:37:22.675 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:37:22.675 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 275 ms
+2023-10-24 13:37:22.820 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 13:37:22.826 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:37:22.828 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 13:37:22.833 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.462 seconds (JVM running for 70.555)
+2023-10-24 13:37:22.836 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 13:37:42.761 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 13:37:42.762 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 13:37:42.763 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-24 13:37:42.779 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Starting...
+2023-10-24 13:37:42.919 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Start completed.
+2023-10-24 13:39:30.401 INFO  [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 13:39:30.522 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:39:30.522 INFO  [Thread-8] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 13:39:30.523 INFO  [Thread-8] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 13:39:30.539 WARN  [Thread-8] [o.a.c.loader.WebappClassLoaderBase] - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2023-10-24 13:39:30.547 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:39:30.555 INFO  [Thread-8] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:39:30.563 INFO  [Thread-8] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown initiated...
+2023-10-24 13:39:30.585 INFO  [Thread-8] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown completed.
+2023-10-24 13:39:31.046 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 9932 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:39:31.046 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:39:31.333 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:39:31.334 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:39:31.334 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:39:31.335 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:39:31.371 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:39:31.371 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 321 ms
+2023-10-24 13:39:31.516 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 13:39:31.521 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:39:31.523 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 13:39:31.528 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 0.543 seconds (JVM running for 199.25)
+2023-10-24 13:39:31.529 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2023-10-24 13:42:26.318 INFO  [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 13:42:26.319 INFO  [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 13:42:26.321 INFO  [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2023-10-24 13:42:26.326 INFO  [http-nio-8080-exec-2] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Starting...
+2023-10-24 13:42:26.465 INFO  [http-nio-8080-exec-2] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Start completed.
+2023-10-24 13:49:21.773 WARN  [http-nio-8080-exec-3] [o.s.w.s.m.s.DefaultHandlerExceptionResolver] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "deleteNo"]
+2023-10-24 13:50:09.707 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 11680 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:50:09.711 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:50:09.715 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 18132 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:50:09.719 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:50:09.764 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 16680 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:50:09.770 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:50:09.821 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 13:50:09.821 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 13:50:09.828 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 13:50:09.828 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 13:50:09.870 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 13:50:09.870 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 13:50:12.020 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:50:12.027 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:50:12.030 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:12.031 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:50:12.032 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:50:12.037 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:12.039 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:50:12.039 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:50:12.119 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:50:12.119 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2290 ms
+2023-10-24 13:50:12.180 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:50:12.180 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2358 ms
+2023-10-24 13:50:12.193 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:50:12.220 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:12.223 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:50:12.223 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:50:12.391 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:50:12.397 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2526 ms
+2023-10-24 13:50:13.856 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 13:50:13.874 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:13.898 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 13:50:13.912 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 4.686 seconds (JVM running for 5.525)
+2023-10-24 13:50:13.941 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2023-10-24 13:50:13.956 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:13.960 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-10-24 13:50:13.967 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:13.967 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 13:50:13.982 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:13.983 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:13.995 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-24 13:50:14.030 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-24 13:50:14.656 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2023-10-24 13:50:14.666 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:14.669 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-10-24 13:50:14.674 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:14.674 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 13:50:14.678 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:14.678 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:14.685 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-24 13:50:14.703 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-24 13:50:39.793 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 12608 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 13:50:39.797 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 13:50:39.958 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 13:50:39.958 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 13:50:41.758 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 13:50:41.766 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:41.767 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 13:50:41.768 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 13:50:41.833 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 13:50:41.833 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1874 ms
+2023-10-24 13:50:42.538 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 13:50:42.551 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 13:50:42.571 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 13:50:42.580 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 3.425 seconds (JVM running for 5.448)
+2023-10-24 13:50:57.344 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 13:50:57.344 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 13:50:57.346 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2023-10-24 13:50:57.409 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-24 13:50:57.733 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-10-24 15:33:04.335 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 20760 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 15:33:04.344 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 15:33:04.464 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 15:33:04.465 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 15:33:06.491 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 8136 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 15:33:06.501 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 15:33:06.777 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 15:33:06.777 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 15:33:06.921 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 15:33:06.936 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:06.939 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 15:33:06.941 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 15:33:07.239 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 15:33:07.240 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2774 ms
+2023-10-24 15:33:08.531 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2023-10-24 15:33:08.551 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:08.557 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-10-24 15:33:08.570 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:08.570 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 15:33:08.584 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:08.585 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:08.598 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-24 15:33:08.666 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-24 15:33:09.193 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 15:33:09.205 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:09.207 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 15:33:09.207 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 15:33:09.286 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 15:33:09.287 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2509 ms
+2023-10-24 15:33:10.232 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2023-10-24 15:33:10.246 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:10.252 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-10-24 15:33:10.258 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:10.259 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2023-10-24 15:33:10.265 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:10.266 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:33:10.276 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-24 15:33:10.333 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-24 15:34:33.520 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 20380 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-24 15:34:33.523 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-24 15:34:33.578 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 15:34:33.578 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 15:34:34.745 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-24 15:34:34.753 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:34:34.754 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-24 15:34:34.754 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-24 15:34:34.812 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-24 15:34:34.813 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1234 ms
+2023-10-24 15:34:35.429 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-24 15:34:35.439 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-24 15:34:35.454 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-24 15:34:35.467 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 2.264 seconds (JVM running for 2.744)
+2023-10-24 15:53:22.596 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-24 15:53:22.596 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-24 15:53:22.598 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2023-10-24 15:53:22.667 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-24 15:53:22.986 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
