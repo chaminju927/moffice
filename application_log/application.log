@@ -18,3 +18,22 @@
 2023-10-25 09:39:28.511 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
 2023-10-25 09:39:28.864 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
 2023-10-25 13:01:48.849 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m17s564ms750µs300ns).
+2023-10-25 14:32:17.866 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Starting MofficeApplication using Java 1.8.0_20 on DESKTOP-42OAV3A with PID 10488 (C:\Users\JNESS\git\moffice\bin\main started by 20230901 in C:\Users\JNESS\git\moffice)
+2023-10-25 14:32:17.868 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - No active profile set, falling back to 1 default profile: "default"
+2023-10-25 14:32:17.920 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-25 14:32:17.921 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-25 14:32:19.083 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-10-25 14:32:19.090 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 14:32:19.092 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2023-10-25 14:32:19.092 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-25 14:32:19.155 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2023-10-25 14:32:19.155 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1234 ms
+2023-10-25 14:32:19.756 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-10-25 14:32:19.768 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 14:32:19.784 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 14:32:19.794 INFO  [restartedMain] [com.example.moffice.MofficeApplication] - Started MofficeApplication in 2.236 seconds (JVM running for 2.747)
+2023-10-25 14:39:15.874 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 14:39:15.875 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2023-10-25 14:39:15.876 INFO  [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2023-10-25 14:39:15.957 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-10-25 14:39:16.298 INFO  [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
