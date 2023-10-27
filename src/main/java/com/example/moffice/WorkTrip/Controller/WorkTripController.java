@@ -32,7 +32,7 @@ public class WorkTripController {
 	 }
 
 	@GetMapping("/list")
-	public List<WorkTrip> list(
+	public Object list(
 			@Param("startDate")Date startDate,
 			@Param("endDate") Date endDate) {
 		System.out.println(startDate);
